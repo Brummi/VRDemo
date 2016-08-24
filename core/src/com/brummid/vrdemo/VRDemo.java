@@ -109,7 +109,7 @@ public class VRDemo extends ApplicationAdapter implements RendererForVR{
 
 		modelBatch.begin(perspectiveCamera);
 
-		for(int i = 0; i < 6; i++)modelBatch.render(exampleScene, environment);
+		modelBatch.render(exampleScene, environment);
 
 		modelBatch.end();
 	}
